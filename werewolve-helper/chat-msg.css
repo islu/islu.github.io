@@ -1,0 +1,79 @@
+.container.custom-container-width {
+	max-width: 800px;
+}
+.bg-skyblue {
+	background-color: skyblue;
+}
+.bg-lightcyan {
+	background-color: lightcyan;
+}
+.rich-menu-normal {
+	width: 25%;
+	height: 25%;
+}
+
+.chat-msg {
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	border-radius: 8px;
+	display: inline-block;
+	background-color: yellowgreen;
+}
+
+.chat-msg:before {
+	content: "";
+	position: absolute;
+	bottom: -2px;
+	right: -10px;
+	width: 0px;
+	height: 20px;
+	z-index: -1;
+	border-right: 20px solid yellowgreen;
+	border-bottom-left-radius: 18px;
+}
+.chat-msg:after {
+	content: "";
+	position: absolute;
+	bottom: -2px;
+	right: -20px;
+	width: 0px;
+	height: 20px;
+	z-index: 1;
+	border-right: 20px solid white;
+	border-bottom-left-radius: 18px;
+}
+
+.chat-msg-you {
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	border-radius: 8px;
+	display: inline-block;
+	background-color: lightgray;
+}
+
+.chat-msg-you:before {
+	content: "";
+	position: absolute;
+	bottom: -2px;
+	left: -10px;
+	width: 0px;
+	height: 20px;
+	z-index: -1;
+	border-left: 20px solid lightgray;
+	border-bottom-right-radius: 18px;
+}
+.chat-msg-you:after {
+	content: "";
+	position: absolute;
+	bottom: -2px;
+	left: -20px;
+	width: 0px;
+	height: 20px;
+	z-index: 1;
+	border-left: 20px solid white;
+	border-bottom-right-radius: 18px;
+}
