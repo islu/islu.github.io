@@ -8,7 +8,7 @@
 	background-color: lightcyan;
 }
 .rich-menu-normal {
-	width: 25%;
+	width: 450px;
 	height: 25%;
 }
 
@@ -53,6 +53,12 @@
 	border-radius: 8px;
 	display: inline-block;
 	background-color: lightgray;
+}
+.chat-msg-you.line2 {
+	height: 60px;
+}
+.chat-msg-you.line3 {
+	height: 90px;
 }
 
 .chat-msg-you:before {

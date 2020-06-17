@@ -1,11 +1,11 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="狼人殺小幫手 - LINE Chatbot">
-    <meta name="author" content="islu">
-		<link rel="icon" href="wolf-howel.ico" type="image/x-icon" / >
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="狼人殺小幫手 - LINE Chatbot">
+		<meta name="author" content="islu">
+		<link rel="icon" href="wolf-howel.ico" type="image/x-icon">
 		<title>狼人殺小幫手 - LINE Chatbot</title>
 		
 		<script src="../js/jquery-3.5.1.slim.min.js"></script>
@@ -15,7 +15,7 @@
 		<link href="../css/bootstrap.css" rel="stylesheet">
 		<link href="chat-msg.css" rel="stylesheet">
 
-  </head>
+	</head>
   <body>
 		<header>
 			<div class="container-fluid bg-skyblue">
@@ -44,24 +44,80 @@
 			</div>
 		</section>
 		
-		<section class="container-fluid text-center pt-3 bg-lightcyan">
-			<h1>如果你是創建房間者，你可以...</h1>
-			<h5>使用聊天介面下方的的功能選單</h5>
-			<div class="row justify-content-center">
-				<ul class="list-group">
-					<li class="list-group-item list-group-item-info">開設房間：新建一房間</li>
-					<li class="list-group-item list-group-item-info">查看房間：查看房間號碼、查看目前加入的玩家及身分</li>
-					<li class="list-group-item list-group-item-info">再來一局：延續上局的設定重新發牌</li>
-				</ul>
-			</div>
+		<section class="container-fluid text-center pt-3">
+			<h1>如果你是開設房間者，你可以...</h1>	
 			<div class="row justify-content-center pt-2">
 				<img src="rich_menu.png" class="rich-menu-normal">
 			</div>
-			<div class="row justify-content-center">
-				<div class="col-sm-3">
-					<div class="alert alert-dark" role="alert">功能選單</div>
+			<h5 class="pt-3">使用聊天介面下方的的功能選單</h5>
+			
+			<div class="row justify-content-center pt-2">
+				<div class="col-sm-4">
+					<p class="text-secondary">按下"開設房間"</p>
+					<div class="float-left">
+						<img src="wolf-howel.ico" alt="prfie" class="rounded-circle">
+						<black class="pl-3"><span class="chat-msg-you line2 text-left">9人預設 (1預言1女巫1獵人3平民3狼人) or<br/>自訂 (自由設定身分及人數)</span></black>
+					</div>
+				
 				</div>
-			</div>		
+			</div>
+			<div class="row justify-content-center pt-2">
+				<div class="col-sm-4">
+					<div class="float-left">
+						<img src="wolf-howel.ico" alt="prfie" class="rounded-circle">
+						<black class="pl-3"><span class="chat-msg-you">成功創建房間編號為: 66666</span></black>
+					</div>
+				</div>
+			</div>
+			<h5 class="pt-3">開設房間</h5>
+			
+			<hr/>
+			<div class="row justify-content-center pt-2">
+				<div class="col-sm-4">
+					<p class="text-secondary">按下"查看房間"</p>
+					<p class="text-secondary">如果還沒開設房間會..."</p>
+					<div class="float-left">
+						<img src="wolf-howel.ico" alt="prfie" class="rounded-circle">
+						<black class="pl-3"><span class="chat-msg-you line2 text-left">...目前沒有開設房間<br/>請先開設房間喔</span></black>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center pt-2">
+				<div class="col-sm-4">
+					<p class="text-secondary">反之則..."</p>
+					<div class="float-left">
+						<img src="wolf-howel.ico" alt="prfie" class="rounded-circle">
+						<black class="pl-3">
+							<span class="chat-msg-you text-left line3">房間編號為: 66666<br/>[玩家1]: 狼人<br/>[玩家2]: 平民</span>
+						</black>
+					</div>
+				</div>
+			</div>
+			<h5 class="pt-3">查看房間</h5>
+	
+			<hr/>
+			<div class="row justify-content-center pt-2">
+				<div class="col-sm-4">
+					<p class="text-secondary">按下"重新發牌"</p>
+					<p class="text-secondary">如果還沒開設房間會..."</p>
+					<div class="float-left">
+						<img src="wolf-howel.ico" alt="prfie" class="rounded-circle">
+						<black class="pl-3"><span class="chat-msg-you line2 text-left">...目前沒有開設房間<br/>請先開設房間喔</span></black>
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-center pt-2">
+				<div class="col-sm-4">
+					<p class="text-secondary">反之則..."</p>
+					<div class="float-left">
+						<img src="wolf-howel.ico" alt="prfie" class="rounded-circle">
+						<black class="pl-3"><span class="chat-msg-you">已經重新發牌囉!</span></black>
+					</div>
+				</div>
+			</div>
+			<h5 class="pt-3">重新發牌</h5>
+
+	
 		</section>
 		
 		<section class="container-fluid text-center pt-3">
@@ -69,11 +125,27 @@
 			<div class="row justify-content-center">
 				<div class="col-sm-4">
 					<span class="chat-msg float-right">66666</span><br/>
-					<img src="wolf-howel.ico" alt="prfie" class="rounded-circle float-left">
-					<span class="chat-msg-you">第1局，你的身分是預言家</span><br/>
-					<h5 class="pt-3">輸入房間號碼</h5>
-				</div>		
-			</div>		
+					<div class="float-left">
+						<img src="wolf-howel.ico" alt="prfie" class="rounded-circle">
+						<black class="pl-3"><span class="chat-msg-you">第1局，你的身分是預言家</span></black>
+					</div>
+				</div>
+			</div>
+			<h5 class="pt-3">輸入房間號碼</h5>
+			
+			<hr/>
+			<div class="row justify-content-center">
+				<div class="col-sm-4">
+					<p class="text-secondary">開設房間按下"重新發牌"後，玩家再次輸入房間號碼</p>
+					<span class="chat-msg float-right">66666</span><br/>
+					<div class="float-left">
+						<img src="wolf-howel.ico" alt="prfie" class="rounded-circle">
+						<black class="pl-3"><span class="chat-msg-you line2 text-left">第2局<br/>你的身分是狼人</span></black>
+					</div>
+				</div>
+			</div>
+			<h5 class="pt-3">再來一局？</h5>
+			
 		</section>
 		
 		<section class="container-fluid text-center pt-3 bg-lightcyan">
