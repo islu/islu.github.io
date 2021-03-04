@@ -11,8 +11,7 @@
 	width: 450px;
 	height: 25%;
 }
-
-.chat-msg {
+.chat-message {
 	position: relative;
 	height: 30px;
 	line-height: 30px;
@@ -21,8 +20,7 @@
 	display: inline-block;
 	background-color: yellowgreen;
 }
-
-.chat-msg:before {
+.chat-message:before {
 	content: "";
 	position: absolute;
 	bottom: -2px;
@@ -33,7 +31,7 @@
 	border-right: 20px solid yellowgreen;
 	border-bottom-left-radius: 18px;
 }
-.chat-msg:after {
+.chat-message:after {
 	content: "";
 	position: absolute;
 	bottom: -2px;
@@ -44,8 +42,7 @@
 	border-right: 20px solid white;
 	border-bottom-left-radius: 18px;
 }
-
-.chat-msg-you {
+.chat-message-you {
 	position: relative;
 	height: 30px;
 	line-height: 30px;
@@ -54,14 +51,13 @@
 	display: inline-block;
 	background-color: lightgray;
 }
-.chat-msg-you.line2 {
+.chat-message-you.line2 {
 	height: 60px;
 }
-.chat-msg-you.line3 {
+.chat-message-you.line3 {
 	height: 90px;
 }
-
-.chat-msg-you:before {
+.chat-message-you:before {
 	content: "";
 	position: absolute;
 	bottom: -2px;
@@ -72,7 +68,7 @@
 	border-left: 20px solid lightgray;
 	border-bottom-right-radius: 18px;
 }
-.chat-msg-you:after {
+.chat-message-you:after {
 	content: "";
 	position: absolute;
 	bottom: -2px;
